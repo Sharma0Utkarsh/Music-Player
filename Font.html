@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        
+        <div class="sidebar">
+            <img class="Spotify" src="Spotify.jpg" alt="">
+            <h1 class="logo">Spotify</h1>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Browse</a></li>
+                <li><a href="#">Your Library</a></li>
+            </ul>
+        </div>
+
+       
+        <div class="main-content">
+            
+            <header>
+                <input type="text" placeholder="Search..." class="search-bar">
+            </header>
+
+          
+            <section class="playlists">
+                <h2>Featured Playlists</h2>
+                <div class="playlist-container">
+                    <div class="playlist">
+                        <img src="tophits.jpg" alt="Playlist 1">
+                        <p>Top Hits</p>
+                    </div>
+                    <div class="playlist">
+                        <img src="chillvibes.jpg" alt="Playlist 2">
+                        <p>Chill Vibes</p>
+                    </div>
+                    <div class="playlist">
+                        <img src="workout.jpg" alt="Playlist 3">
+                        <p>Workout</p>
+                    </div>
+                </div>
+            </section>
+
+            
+            <footer class="player">
+                <div class="song-info">
+                    <img src="aj.jpg" alt="Song Thumbnail" class="thumbnail">
+                    <div>
+                        <p class="song-title">Sajni</p>
+                        <p class="song-artist">Arijit Singh</p>
+                    </div>
+                </div>
+
+                <div class="controls">
+                    <button id="prev">⏮</button>
+                    <button id="play">▶️</button>
+                    <button id="next">⏭</button>
+                </div>
+
+                <div class="progress-container">
+                    <input type="range" id="progress-bar" value="0">
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
